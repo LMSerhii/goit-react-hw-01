@@ -1,0 +1,46 @@
+.profile {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.description {
+  padding: 20px 60px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #242424;
+  border-radius: 50%;
+}
+.name {
+  color: black;
+}
+.tag {
+  color: rgba(0, 0, 0, 0.6);
+}
+.location {
+  color: rgba(0, 0, 0, 0.6);
+}
+.stats {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  border-top: 2px solid rgba(0, 0, 0, 0.393);
+}
+.stats li {
+  /* flex-basis: calc((100% - 10 * 2) / 3); */
+}
+
+.stats li:not(:last-child) {
+  border-right: 2px solid rgba(0, 0, 0, 0.393);
+}
+
+.label {
+  display: block;
+}
+.value {
+  display: block;
+}
