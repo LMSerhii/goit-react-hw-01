@@ -1,7 +1,8 @@
 .profile {
-  max-width: 300px;
+  width: 300px;
   background-color: #fff;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 .description {
   padding: 20px 60px;
