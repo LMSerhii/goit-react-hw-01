@@ -1,0 +1,20 @@
+.item {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.678);
+}
+.avatar {
+}
+.name {
+}
+
+.status {
+  font-weight: 600;
+}
+
+.status.success {
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
