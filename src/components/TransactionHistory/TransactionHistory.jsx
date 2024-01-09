@@ -14,7 +14,7 @@ const TransactionHistory = ({ items }) => {
       <tbody>
         {items.map(({ amount, currency, id, type }) => {
           return (
-            <tr key={id}>
+            <tr className={css.row} key={id}>
               <td>{type}</td>
               <td>{amount}</td>
               <td>{currency}</td>
