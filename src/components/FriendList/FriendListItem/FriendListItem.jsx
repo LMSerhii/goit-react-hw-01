@@ -6,7 +6,7 @@ const FriendListItem = ({ avatar, isOnline, name }) => {
     <div className={css.item}>
       <img className={css.avatar} src={avatar} alt="Avatar" width="48" />
       <p className={css.name}>{name}</p>
-      {Boolean(isOnline) ? (
+      {isOnline ? (
         <p className={clsx(css.status, css.success)}>Online</p>
       ) : (
         <p className={clsx(css.status, css.error)}>Offline</p>
